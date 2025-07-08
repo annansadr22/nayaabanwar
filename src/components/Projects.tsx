@@ -7,47 +7,41 @@ export function Projects() {
   const projects = [
     {
       id: 1,
-      name: "Neural Language Model",
-      description: "Advanced transformer-based language model for natural language understanding with state-of-the-art performance on benchmark datasets.",
-      tech: ["Python", "PyTorch", "Transformers", "CUDA", "Docker"],
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop"
+      name: "Cabin Booking System",
+      description: "A sleek internal cabin booking system for NxtWave at Sohini Tech Park, Hyderabad, with a modern UI built using Lovable, powered by a FastAPI backend and PostgreSQL database hosted on Supabase — designed for efficient scheduling, user role management, and real-time availability tracking.",
+      tech: ["Python", "FastAPI", "Lovable", "TypeScript", "PostgreSQL", "Supabase"],
+      image: "https://images.unsplash.com/photo-1751706566078-4305776b85b4?q=80&w=1689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 2,
-      name: "Computer Vision Pipeline",
-      description: "End-to-end computer vision system for real-time object detection and classification using deep learning techniques.",
-      tech: ["TensorFlow", "OpenCV", "Python", "Flask", "AWS"],
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=250&fit=crop"
+      name: "Chest CT Scan Classification with Azure WebApp",
+      description: "A cloud-based AI system for classifying chest CT scans with over 90% accuracy, leveraging Azure Custom Vision for model training and Azure Web App for deployment. Integrated Redis for fast, efficient NoSQL data storage and retrieval to support real-time predictions and scalable access.",
+      tech: ["Azure Cloud", "Azure Custom Vision", "Redis", "Flask"],
+      image: "https://images.unsplash.com/photo-1751707875919-94155431030a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 3,
-      name: "AI Chat Assistant",
-      description: "Intelligent conversational AI powered by large language models with context awareness and multi-turn dialogue capabilities.",
-      tech: ["FastAPI", "LangChain", "Redis", "PostgreSQL", "React"],
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=250&fit=crop"
+      name: "Distributed Software Systems Reliability and Performance",
+      description: "Designed and deployed a distributed client-server application to evaluate system reliability under controlled error conditions. Leveraged Spring Boot on Oracle Cloud with MongoDB, introduced fault injection at varying rates, and optimized multithreaded performance with robust error recovery mechanisms.",
+      tech: ["Java", "Spring Boot", "Eclipse", "Oracle Cloud", "Multithreading", "MongoDB"],
+      image: "http://images.unsplash.com/photo-1751699466793-8a9513402fd6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=1000&h=1000&fit=crop",
     },
     {
       id: 4,
-      name: "Data Analytics Platform",
-      description: "Scalable data processing and analytics platform with real-time insights and machine learning-powered predictions.",
-      tech: ["Apache Spark", "Kafka", "MongoDB", "Kubernetes", "Grafana"],
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=250&fit=crop"
+      name: "Industrial Robot Prototype",
+      description: "Developed a prototype robotic arm for warehouse automation using Arduino UNO microcontroller with 5 degrees of freedom, automating object pick-and-place tasks with precision. Added object detection feature using an infrared sensor, achieving 95% accuracy in detection for seamless object manipulation.",
+      tech: ["Arduino", "IR Sensor", "Servo Motor", "Embedded C", "Automation"],
+      image: "https://images.unsplash.com/photo-1751709314417-6abf3f9412ae?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 5,
-      name: "Recommendation Engine",
-      description: "Sophisticated recommendation system using collaborative filtering and deep learning for personalized user experiences.",
-      tech: ["scikit-learn", "TensorFlow", "Pandas", "NumPy", "Redis"],
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=250&fit=crop"
-    },
-    {
-      id: 6,
-      name: "MLOps Framework",
-      description: "Complete MLOps solution for model versioning, automated training, deployment, and monitoring in production environments.",
-      tech: ["MLflow", "Docker", "Jenkins", "AWS", "Terraform"],
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop"
+      name: "Arithmetic Unit Using VHDL",
+      description: "Developed a VHDL-based project for ModelSim that calculates a specified formula, implementing n-bit multiplication with Booth Multiplier and achieving a power-efficient design (5% static and 95% dynamic power dissipation).",
+      tech: ["Vivado", "VHDL", "ModelSim"],
+      image: "https://images.unsplash.com/photo-1751710435254-cc70ec271346?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
   ];
+
 
   return (
     <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-900/50">
@@ -57,7 +51,7 @@ export function Projects() {
             Featured Projects
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            A showcase of my work in artificial intelligence, machine learning, and software development
+            A showcase of my work in software development, web frameworks, and intelligent systems — spanning IoT, FPGA, and AI-powered applications
           </p>
         </div>
 

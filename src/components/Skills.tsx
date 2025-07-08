@@ -5,27 +5,27 @@ export function Skills() {
   const skillCategories = [
     {
       category: "Programming Languages",
-      skills: ["Python", "JavaScript", "TypeScript", "Java", "C++", "R", "SQL", "Go"]
+      skills: ["Python", "JavaScript", "Java", "C++", "SQL"]
     },
     {
-      category: "AI/ML Frameworks",
-      skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "Hugging Face", "LangChain", "OpenAI API"]
-    },
-    {
-      category: "Web Development",
-      skills: ["React", "Next.js", "FastAPI", "Django", "Flask", "Node.js", "Express", "REST APIs"]
+      category: "Web Frameworks",
+      skills: ["Spring Boot", "FastAPI", "Django", "Flask", "Node.js", "Express", "REST APIs"]
     },
     {
       category: "Cloud & DevOps",
-      skills: ["AWS", "Azure", "Docker", "Kubernetes", "Jenkins", "Git", "CI/CD", "Terraform"]
+      skills: ["AWS", "Azure", "Oracle", "Git", "Custom Vision"]
     },
     {
       category: "Databases",
-      skills: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "MySQL", "Neo4j", "InfluxDB"]
+      skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL"]
     },
     {
-      category: "Data Science",
-      skills: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter", "Apache Spark", "Kafka", "MLflow"]
+      category: "Tools",
+      skills: ["VS Code", "Eclipse", "IntelliJ", "Postman" ]
+    },
+    {
+      category: "Hardware & Embedded Systems",
+      skills: ["Xilinx Vivado", "ModelSim", "QuestaSim", "Verilog", "VHDL", "Arduino" ]
     }
   ];
 

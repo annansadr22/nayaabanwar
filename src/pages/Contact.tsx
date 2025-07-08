@@ -46,22 +46,22 @@ const Contact = () => {
   const contactInfo = [
     {
       label: "Email",
-      value: "annan.sadr@example.com",
+      value: "annansadr.ca@gmail.com",
       icon: "✉️"
     },
     {
       label: "Phone",
-      value: "+91 12345 67890",
+      value: "+91 75640 38169",
       icon: "📱"
     },
     {
       label: "Location",
-      value: "Pune, India",
+      value: "Delhi, India",
       icon: "📍"
     },
     {
       label: "LinkedIn",
-      value: "linkedin.com/in/annan-sadr",
+      value: "https://www.linkedin.com/in/annan-sadr/",
       icon: "💼"
     }
   ];
@@ -79,7 +79,7 @@ const Contact = () => {
               Get in Touch
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Let's discuss your next AI project, collaboration opportunities, or just connect over our shared passion for technology.
+              Let’s talk about your next software or hardware project, explore collaboration in embedded systems or web development, or simply connect over our shared passion for building intelligent, real-world tech.
             </p>
           </div>
 
@@ -90,7 +90,12 @@ const Contact = () => {
                 <CardTitle className="text-2xl font-bold text-gray-900 dark:text-white">Send a Message</CardTitle>
               </CardHeader>
               <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form
+                  action="https://formspree.io/f/xqabvqyy"
+                  method="POST"
+                  className="space-y-6"
+                >
+                  {/* <input type="hidden" name="_redirect" value="#contact" /> */}
                   <div className="space-y-2">
                     <Label htmlFor="name" className="text-gray-700 dark:text-gray-300 font-medium">
                       Name *
@@ -203,12 +208,20 @@ const Contact = () => {
                     I typically respond to messages within 24 hours. For urgent inquiries, feel free to reach out via phone or LinkedIn.
                   </p>
                   <div className="flex space-x-3">
-                    <Button variant="outline" size="sm" className="flex-1">
-                      📧 Email
-                    </Button>
-                    <Button variant="outline" size="sm" className="flex-1">
-                      💼 LinkedIn
-                    </Button>
+                    <a href="mailto:annansadr.ca@gmail.com">
+                      <Button variant="outline" size="sm" className="flex-1">
+                        📧 Email
+                      </Button>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/annan-sadr/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline" size="sm" className="flex-1">
+                        💼 LinkedIn
+                      </Button>
+                    </a>
                   </div>
                 </CardContent>
               </Card>
@@ -218,7 +231,7 @@ const Contact = () => {
                   <div className="text-4xl mb-3">🤝</div>
                   <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Open to Opportunities</h3>
                   <p className="text-gray-600 dark:text-gray-300 text-sm">
-                    Always interested in discussing exciting AI projects, research collaborations, and innovative technology solutions.
+                    Always interested in discussing exciting web projects, research collaborations, and innovative technology solutions.
                   </p>
                 </CardContent>
               </Card>

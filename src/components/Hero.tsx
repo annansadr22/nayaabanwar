@@ -11,7 +11,7 @@ export function Hero() {
           <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1 shadow-2xl">
             <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+                src="https://images.unsplash.com/photo-1750758638150-aba376165160?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Annan Sadr"
                 className="w-full h-full object-cover"
               />
@@ -26,12 +26,12 @@ export function Hero() {
           </h1>
           
           <p className="text-xl sm:text-2xl lg:text-3xl text-gray-600 dark:text-gray-300 mb-8 font-medium">
-            AI Engineer | ML Researcher | Software Developer
+            Software Developer | Instructor | FPGA Enthusiast
           </p>
           
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Passionate about building intelligent systems that solve real-world problems. 
-            Specializing in machine learning, deep learning, and AI-powered applications.
+            Passionate about crafting scalable software and guiding future developers.
+            Specialized in web frameworks, embedded systems, FPGA, IoT, and modern backend technologies.
           </p>
 
           {/* Action Buttons */}
@@ -55,13 +55,19 @@ export function Hero() {
               </Button>
             </Link>
             
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-2 border-purple-600 text-purple-600 dark:text-purple-400 hover:bg-purple-600 hover:text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            <a
+              href="https://www.linkedin.com/in/annan-sadr/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              🔗 Connect on LinkedIn
-            </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-2 border-purple-600 text-purple-600 dark:text-purple-400 hover:bg-purple-600 hover:text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+              >
+                🔗 Connect on LinkedIn
+              </Button>
+            </a>
             
             <Link to="/contact">
               <Button

@@ -8,58 +8,47 @@ import { Badge } from "@/components/ui/badge";
 
 const Resume = () => {
   const skills = {
-    "Programming Languages": ["Python", "JavaScript", "TypeScript", "C++", "Java", "R"],
-    "ML/AI Frameworks": ["TensorFlow", "PyTorch", "scikit-learn", "Keras", "Hugging Face", "LangChain"],
-    "Cloud Platforms": ["AWS", "Google Cloud", "Azure", "Docker", "Kubernetes"],
-    "Databases": ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "Neo4j"],
-    "Tools & Technologies": ["Git", "Jenkins", "MLflow", "Apache Spark", "Kafka", "FastAPI"]
+    "Programming Languages": ["Python",   "Java", "C", "Verilog", "VHDL"],
+    "Web Frameworks": ["Spring Boot", "FastAPI", "Django", "MERN"],
+    "Cloud Platforms": ["AWS", "Oracle", "Azure"],
+    "Databases": ["PostgreSQL", "MongoDB", "Redis", "MySQL"],
+    "Tools & Technologies": ["Git", "VS Code", "Postman", "Eclipse", "IntelliJ"]
   };
 
   const experience = [
     {
-      title: "Senior AI/ML Engineer",
-      company: "Tech Innovation Labs",
-      period: "2024 - Present",
+      title: "Software Development Instructor",
+      company: "NxtWave Disruptive Technologies",
+      period: "Apr 2025 - Present",
       achievements: [
-        "Led development of enterprise AI solutions serving 1M+ users",
-        "Improved model accuracy by 35% through novel architecture designs",
-        "Managed team of 5 engineers and established MLOps best practices"
+        "Completed several courses including Python, MySQL and others.",
+        "Made a cabin booking system using Fast API and Lovable.",
+        "Conducted several Bootcamps at NIAT as a speaker and a volunteer."
       ]
     },
     {
-      title: "Machine Learning Engineer",
-      company: "DataFlow Systems",
-      period: "2022 - 2024",
+      title: "Java Developer Intern",
+      company: "Innovation Lab, Concordia University",
+      period: "Jan 2023 - Apr 2023",
       achievements: [
-        "Built and deployed 15+ ML models in production environment",
-        "Reduced inference time by 60% through optimization techniques",
-        "Collaborated with cross-functional teams on data-driven products"
-      ]
-    },
-    {
-      title: "AI Research Intern",
-      company: "Neural Networks Institute",
-      period: "2021 - 2022",
-      achievements: [
-        "Published 2 research papers in top-tier AI conferences",
-        "Developed novel transformer architectures for NLP tasks",
-        "Contributed to open-source projects with 1000+ GitHub stars"
+        "Assisted in the development of a software prototype leveraging ML to generate music files from sheet music input.",
+        "Implemented system architecture in Java, integrating ML algorithms for music pattern recognition & generation."
       ]
     }
   ];
 
   const education = [
     {
-      degree: "M.Tech in Computer Science",
-      institution: "Indian Institute of Technology",
-      period: "2019 - 2021",
-      details: "Specialization in Artificial Intelligence and Machine Learning • CGPA: 9.2/10"
+      degree: "M.E in Electrical and Computer",
+      institution: "Concordia University",
+      period: "2023 - 2024",
+      details: "Specialization in Computing Systems and Microelectronic Systems • GPA: 3.8/4.3"
     },
     {
-      degree: "B.Tech in Computer Engineering",
-      institution: "National Institute of Technology",
-      period: "2015 - 2019",
-      details: "Major in Computer Science • CGPA: 8.8/10 • Dean's List"
+      degree: "B.E in Electronics and Communication",
+      institution: "Visvesvaraya Technological University",
+      period: "2018 - 2022",
+      details: "Major in Electronics and Communication • CGPA: 8.59/10"
     }
   ];
 
@@ -76,11 +65,18 @@ const Resume = () => {
               Resume
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
-              Comprehensive overview of my professional experience, skills, and educational background in AI/ML engineering.
+              Comprehensive overview of my professional experience, skills, and educational background in Web Frameworks and Embedded Systems.
             </p>
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105">
-              📄 Download Resume
-            </Button>
+            <a
+              href="https://drive.usercontent.google.com/download?id=1opLDMFxtKVR4ukWMt8uvzM6iVSK9nvZk&export=download&authuser=0&confirm=t&uuid=b700b16c-53af-4386-b7bd-cd016f7a6d73&at=AN8xHopTld_deQ0SnWPBvMmBxuwt:1750939651719"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105">
+                📄 Download Resume
+              </Button>
+            </a>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -172,9 +168,15 @@ const Resume = () => {
                     <div className="text-center">
                       <div className="text-6xl mb-4">📄</div>
                       <p className="text-gray-600 dark:text-gray-300 mb-4">PDF Resume Preview</p>
-                      <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-                        Open Full Resume
-                      </Button>
+                      <a
+                        href="https://drive.google.com/file/d/1opLDMFxtKVR4ukWMt8uvzM6iVSK9nvZk/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                          Open Full Resume
+                        </Button>
+                      </a>
                     </div>
                   </div>
                 </CardContent>
