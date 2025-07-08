@@ -49,10 +49,10 @@ const Projects = () => {
     },
     {
       id: 5,
-      name: "Recommendation Engine",
-      description: "Sophisticated recommendation system using collaborative filtering and deep learning for personalized user experiences. Increased user engagement by 40% across multiple platforms.",
-      tech: ["scikit-learn", "TensorFlow", "Pandas", "NumPy", "Redis", "Elasticsearch"],
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=250&fit=crop",
+      name: "Formal Verification of BCD Adder Core and Bug Fixing",
+      description: "Synthesised RTL code for a BCD Adder to gate level using Synopsys tools & verified RTL and gate-level designs with Formality and Conformal, achieving 100% verification & fixing 18 bugs in a provided gate-level description.",
+      tech: ["Formal Verification", "Equivalence Checking", "Conformal", "Formality"],
+      image: "https://i.postimg.cc/W4dsNn5L/for-hard.jpg",
       github: "https://github.com",
       demo: "https://demo.com",
       featured: false
