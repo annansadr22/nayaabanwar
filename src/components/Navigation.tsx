@@ -25,9 +25,15 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Name */}
           <div className="flex-shrink-0">
-            <Link to="/" className="text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
-              Annan Sadr
+            <Link to="/" className="flex items-center space-x-2 text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
+              <img
+                src="/favicon.ico"
+                alt="Logo"
+                className="w-6 h-6 sm:w-7 sm:h-7 object-contain"
+              />
+              <span>Annan Sadr</span>
             </Link>
+
           </div>
 
           {/* Desktop Navigation */}

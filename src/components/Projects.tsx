@@ -89,12 +89,12 @@ export function Projects() {
                   ))}
                 </div>
                 
-                <Button
+                {/* <Button
                   variant="outline"
                   className="w-full border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white transition-all duration-300 rounded-xl font-medium"
                 >
                   View More
-                </Button>
+                </Button> */}
               </CardContent>
             </Card>
           ))}
