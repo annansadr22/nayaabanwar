@@ -37,7 +37,7 @@ export function Skills() {
             Technical Skills
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            A comprehensive toolkit spanning artificial intelligence, software development, and data engineering
+            A comprehensive toolkit spanning  software development, and hardware design
           </p>
         </div>
 

@@ -33,8 +33,8 @@ const Projects = () => {
       description: "Developed a prototype robotic arm for warehouse automation using Arduino UNO microcontroller with 5 degrees of freedom, automating object pick-and-place tasks with precision. Added object detection feature using an infrared sensor, achieving 95% accuracy in detection for seamless object manipulation.",
       tech: ["FastAPI", "LangChain", "Redis", "PostgreSQL", "React", "WebSocket"],
       image: "https://images.unsplash.com/photo-1751709314417-6abf3f9412ae?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      github: "https://github.com/annansadr22/Project-Phase-One",
-      demo: "https://demo.com",
+      github: "https://github.com/annansadr22/Industrial_Robot_COEN_6711",
+      demo: "https://drive.google.com/file/d/15w-T95-k-18Za1Q9PidVjQRWXef2uWwA/view?usp=sharing",
       featured: false
     },
     {
@@ -43,8 +43,8 @@ const Projects = () => {
       description: " Developed a VHDL-based project for ModelSim that calculates a specified formula, implementing n-bit multiplication with Booth Multiplier and achieving a power-efficient design (5% static and 95% dynamic power dissipation).",
       tech: ["Vivado", "VHDL", "ModelSim"],
       image: "https://images.unsplash.com/photo-1751710435254-cc70ec271346?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      github: "https://github.com",
-      demo: "https://demo.com",
+      github: "https://github.com/annansadr22/ArithmeticUnit_COEN_6501",
+      demo: "https://drive.google.com/file/d/1jG3b9xSXp47hugaby-nQoV6uj02Uu-4X/view?usp=sharing",
       featured: false
     },
     {
@@ -53,8 +53,8 @@ const Projects = () => {
       description: "Synthesised RTL code for a BCD Adder to gate level using Synopsys tools & verified RTL and gate-level designs with Formality and Conformal, achieving 100% verification & fixing 18 bugs in a provided gate-level description.",
       tech: ["Formal Verification", "Equivalence Checking", "Conformal", "Formality"],
       image: "https://i.postimg.cc/W4dsNn5L/for-hard.jpg",
-      github: "https://github.com",
-      demo: "https://demo.com",
+      github: "https://github.com/annansadr22/Formal_Verification_BCD_Adder_COEN_6551",
+      demo: "https://drive.google.com/file/d/1mKV4RqVJQiHpjse-eUhaFM0iXccATYdK/view?usp=sharing",
       featured: false
     },
     {
@@ -63,8 +63,8 @@ const Projects = () => {
       description: "Designed and deployed a distributed client-server application to evaluate system reliability under controlled error conditions. Leveraged Spring Boot on Oracle Cloud with MongoDB, introduced fault injection at varying rates, and optimized multithreaded performance with robust error recovery mechanisms.",
       tech: ["Java", "Spring Boot", "Eclipse", "Oracle Cloud", "Multithreading", "MongoDB"],
       image: "http://images.unsplash.com/photo-1751699466793-8a9513402fd6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=1000&h=1000&fit=crop",
-      github: "https://github.com",
-      demo: "https://demo.com",
+      github: "https://github.com/annansadr22/Project-Phase-One",
+      demo: "https://drive.google.com/file/d/1Y-4-mypDucJsBYwWGa5-PVLPr949nBII/view?usp=sharing",
       featured: true
     }
   ];
