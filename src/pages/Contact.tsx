@@ -46,22 +46,22 @@ const Contact = () => {
   const contactInfo = [
     {
       label: "Email",
-      value: "annansadr.ca@gmail.com",
+      value: "anwarnayaab@gmail.com",
       icon: "✉️"
     },
     {
       label: "Phone",
-      value: "+91 75640 38169",
+      value: "+91 93041 17553",
       icon: "📱"
     },
     {
       label: "Location",
-      value: "Delhi, India",
+      value: "Patna, India",
       icon: "📍"
     },
     {
       label: "LinkedIn",
-      value: "https://www.linkedin.com/in/annan-sadr/",
+      value: "https://www.linkedin.com/in/nayaabanwar/",
       icon: "💼"
     }
   ];
@@ -208,13 +208,13 @@ const Contact = () => {
                     I typically respond to messages within 24 hours. For urgent inquiries, feel free to reach out via phone or LinkedIn.
                   </p>
                   <div className="flex space-x-3">
-                    <a href="mailto:annansadr.ca@gmail.com">
+                    <a href="mailto:aanwarnayaab@gmail.com">
                       <Button variant="outline" size="sm" className="flex-1">
                         📧 Email
                       </Button>
                     </a>
                     <a
-                      href="https://www.linkedin.com/in/annan-sadr/"
+                      href="https://www.linkedin.com/in/nayaabanwar/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

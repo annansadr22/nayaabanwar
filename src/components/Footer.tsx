@@ -4,9 +4,9 @@ export function Footer() {
 
   const footerLinks = [
     { name: "Resume", href: "https://drive.google.com/file/d/1opLDMFxtKVR4ukWMt8uvzM6iVSK9nvZk/view?usp=sharing", external: true },
-    { name: "GitHub", href: "https://github.com/annansadr22", external: true },
-    { name: "LinkedIn", href: "https://www.linkedin.com/in/annan-sadr/", external: true },
-    { name: "Email", href: "mailto:annan.sadr@example.com", external: true }
+    // { name: "GitHub", href: "https://github.com/annansadr22", external: true },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/nayaabanwar/", external: true },
+    { name: "Email", href: "mailto:anwarnayaab@gmail.com", external: true }
   ];
 
   return (
@@ -15,9 +15,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Personal Info */}
           <div className="text-center md:text-left">
-            <h3 className="text-2xl font-bold mb-2">Annan Sadr</h3>
+            <h3 className="text-2xl font-bold mb-2">Nayaab Anwar</h3>
             <p className="text-gray-300 mb-1">Software Developer & Instructor</p>
-            <p className="text-gray-400 text-sm">Delhi, India</p>
+            <p className="text-gray-400 text-sm">Patna, India</p>
           </div>
 
           {/* Contact Info */}
@@ -25,13 +25,13 @@ export function Footer() {
             <h4 className="text-lg font-semibold mb-3 text-gray-200">Get in Touch</h4>
             <div className="space-y-2">
               <p className="text-gray-300">
-                <a href="mailto:annansadr.ca@gmail.com" className="hover:text-blue-400 transition-colors duration-300">
-                  annansadr.ca@gmail.com
+                <a href="mailto:anwarnayaab@gmail.com" className="hover:text-blue-400 transition-colors duration-300">
+                  anwarnayaab@gmail.com
                 </a>
               </p>
               <p className="text-gray-300">
-                <a href="tel:+917564038169" className="hover:text-blue-400 transition-colors duration-300">
-                  +91 75640 38169
+                <a href="tel:+919304117553" className="hover:text-blue-400 transition-colors duration-300">
+                  +91 93041 17553
                 </a>
               </p>
             </div>
@@ -59,7 +59,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-6 text-center">
           <p className="text-gray-400 text-sm">
-            © {currentYear} Annan Sadr. All rights reserved. Built with passion for Web Systems, IoT, and Embedded Intelligence.
+            © {currentYear} Nayaab Anwar. All rights reserved. Built with passion for Web Systems, IoT, and Embedded Intelligence.
           </p>
         </div>
       </div>
