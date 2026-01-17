@@ -34,7 +34,7 @@ export function Navigation() {
                 alt="Logo"
                 className="w-8 h-8 sm:w-10 sm:h-10 object-contain"
               />
-              <span>Annan Sadr</span>
+              <span>Nayaab Anwar</span>
             </Link>
 
 
