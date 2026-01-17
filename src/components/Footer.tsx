@@ -3,7 +3,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const footerLinks = [
-    { name: "Resume", href: "https://drive.google.com/file/d/1opLDMFxtKVR4ukWMt8uvzM6iVSK9nvZk/view?usp=sharing", external: true },
+    { name: "Resume", href: "https://drive.google.com/file/d/1yqxVWRx1BzZOcY7J3Wpe-LCsL-FkCbti/view?usp=sharing", external: true },
     // { name: "GitHub", href: "https://github.com/annansadr22", external: true },
     { name: "LinkedIn", href: "https://www.linkedin.com/in/nayaabanwar/", external: true },
     { name: "Email", href: "mailto:anwarnayaab@gmail.com", external: true }
@@ -16,7 +16,7 @@ export function Footer() {
           {/* Personal Info */}
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold mb-2">Nayaab Anwar</h3>
-            <p className="text-gray-300 mb-1">Software Developer & Instructor</p>
+            <p className="text-gray-300 mb-1">Content Writer</p>
             <p className="text-gray-400 text-sm">Patna, India</p>
           </div>
 

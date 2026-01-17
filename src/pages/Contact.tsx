@@ -91,7 +91,7 @@ const Contact = () => {
               </CardHeader>
               <CardContent>
                 <form
-                  action="https://formspree.io/f/xqabvqyy"
+                  action="https://formspree.io/f/xdaaavke"
                   method="POST"
                   className="space-y-6"
                 >
@@ -231,7 +231,7 @@ const Contact = () => {
                   <div className="text-4xl mb-3">🤝</div>
                   <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Open to Opportunities</h3>
                   <p className="text-gray-600 dark:text-gray-300 text-sm">
-                    Always interested in discussing exciting web projects, research collaborations, and innovative technology solutions.
+                    Always interested in discussing high-impact SEO content, SaaS growth storytelling, and brand strategies that drive visibility, traffic, and conversions.
                   </p>
                 </CardContent>
               </Card>

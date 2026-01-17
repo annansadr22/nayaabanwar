@@ -26,12 +26,12 @@ export function Hero() {
           </h1>
           
           <p className="text-xl sm:text-2xl lg:text-3xl text-gray-600 dark:text-gray-300 mb-8 font-medium">
-            Software Developer | Instructor | FPGA Enthusiast
+            Search Intent Analysis | SEO Content Writing | SERP Rankings
           </p>
           
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Passionate about crafting scalable software and guiding future developers.
-            Specialized in web frameworks, embedded systems, FPGA, IoT, and modern backend technologies.
+            Passionate about using words as a growth tool, I blend analytical thinking with creative storytelling.
+            I craft persuasive, conversion-focused content that builds trust, influences decision, and supports sale growth. 
           </p>
 
           {/* Action Buttons */}

@@ -7,37 +7,37 @@ export function Projects() {
   const projects = [
     {
       id: 1,
-      name: "Cabin Booking System",
-      description: "A sleek internal cabin booking system for NxtWave at Sohini Tech Park, Hyderabad, with a modern UI built using Lovable, powered by a FastAPI backend and PostgreSQL database hosted on Supabase — designed for efficient scheduling, user role management, and real-time availability tracking.",
-      tech: ["Python", "FastAPI", "Lovable", "TypeScript", "PostgreSQL", "Supabase"],
+      name: "EdTech",
+      description: "Crafted SEO-driven, learner-focused content for leading education platforms including KnowledgeHut by UpGrad, Chegg, and Great Lakes, simplifying complex concepts into high-impact narratives.",
+      tech: ["Curriculum-aligned writing", "Simplifying complex concepts", "Search intent–based content"],
       image: "https://images.unsplash.com/photo-1751706566078-4305776b85b4?q=80&w=1689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 2,
-      name: "Chest CT Scan Classification with Azure WebApp",
-      description: "A cloud-based AI system for classifying chest CT scans with over 90% accuracy, leveraging Azure Custom Vision for model training and Azure Web App for deployment. Integrated Redis for fast, efficient NoSQL data storage and retrieval to support real-time predictions and scalable access.",
-      tech: ["Azure Cloud", "Azure Custom Vision", "Redis", "Flask"],
+      name: "Finance",
+      description: "Developed performance-oriented content for financial institutions like FlexiLoans, Almondz, and Propelld, translating data-heavy subjects into accessible, conversion-focused copy.",
+      tech: ["Lead-oriented fintech content", "Performance marketing copy", "Data-driven finance copywriting"],
       image: "https://images.unsplash.com/photo-1751707875919-94155431030a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 3,
-      name: "Distributed Software Systems Reliability and Performance",
-      description: "Designed and deployed a distributed client-server application to evaluate system reliability under controlled error conditions. Leveraged Spring Boot on Oracle Cloud with MongoDB, introduced fault injection at varying rates, and optimized multithreaded performance with robust error recovery mechanisms.",
-      tech: ["Java", "Spring Boot", "Eclipse", "Oracle Cloud", "Multithreading", "MongoDB"],
+      name: "Healthcare",
+      description: "Delivered research-backed and patient-centric content for healthcare brands such as Apollo Fertility, Apollo Spectra, AHCA, and EaseMyCure, balancing trust, clarity, and engagement.",
+      tech: ["Compliance-aware content", "Research-backed content", "Patient-centric medical writing"],
       image: "http://images.unsplash.com/photo-1751699466793-8a9513402fd6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=1000&h=1000&fit=crop",
     },
     {
       id: 4,
-      name: "Industrial Robot Prototype",
-      description: "Developed a prototype robotic arm for warehouse automation using Arduino UNO microcontroller with 5 degrees of freedom, automating object pick-and-place tasks with precision. Added object detection feature using an infrared sensor, achieving 95% accuracy in detection for seamless object manipulation.",
-      tech: ["Arduino", "IR Sensor", "Servo Motor", "Embedded C", "Automation"],
+      name: "Real Estate",
+      description: "Produced buyer-centric and SEO-optimized content for property platforms including Huozeo and RentenPe, improving discoverability and lead intent.",
+      tech: ["Buyer-intent content strategy", "Property listing content", "Lead-generation copywriting"],
       image: "https://images.unsplash.com/photo-1751709314417-6abf3f9412ae?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 5,
-      name: "Arithmetic Unit Using VHDL",
-      description: "Developed a VHDL-based project for ModelSim that calculates a specified formula, implementing n-bit multiplication with Booth Multiplier and achieving a power-efficient design (5% static and 95% dynamic power dissipation).",
-      tech: ["Vivado", "VHDL", "ModelSim"],
+      name: "IT & Digital Platforms",
+      description: "Created structured, clarity-led content for digital and IT-driven brands including Informatrix, Truecaller, Digital Glyphs, and Savaari, aligning technical offerings with business value and audience understanding.",
+      tech: ["SaaS & IT content writing", "B2C digital product content", "Business-aligned tech communication"],
       image: "https://images.unsplash.com/photo-1751710435254-cc70ec271346?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     }
   ];
@@ -51,7 +51,7 @@ export function Projects() {
             Featured Projects
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            A showcase of my work in software development, web frameworks, and intelligent systems — spanning IoT, FPGA, and AI-powered applications
+            A showcase of my content writing work across edtech, finance, healthcare, real estate, and IT, crafted to engage, rank, and convert.
           </p>
         </div>
 

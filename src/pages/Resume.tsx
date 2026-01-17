@@ -68,7 +68,7 @@ const Resume = () => {
               Comprehensive overview of my professional experience, skills, and educational background in Web Frameworks and Embedded Systems.
             </p>
             <a
-              href="https://drive.usercontent.google.com/download?id=1opLDMFxtKVR4ukWMt8uvzM6iVSK9nvZk&export=download&authuser=0&confirm=t&uuid=b700b16c-53af-4386-b7bd-cd016f7a6d73&at=AN8xHopTld_deQ0SnWPBvMmBxuwt:1750939651719"
+              href="https://drive.usercontent.google.com/download?id=1yqxVWRx1BzZOcY7J3Wpe-LCsL-FkCbti&export=download&authuser=0&confirm=t&uuid=9900f9f8-6b55-4874-a2b3-9e2dfd1c4bdd&at=ANTm3cxNHGBoePN73Iuh_eK8LDnG:1768680062697"
               download
               target="_blank"
               rel="noopener noreferrer"
@@ -169,7 +169,7 @@ const Resume = () => {
                       <div className="text-6xl mb-4">📄</div>
                       <p className="text-gray-600 dark:text-gray-300 mb-4">PDF Resume Preview</p>
                       <a
-                        href="https://drive.google.com/file/d/1opLDMFxtKVR4ukWMt8uvzM6iVSK9nvZk/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1yqxVWRx1BzZOcY7J3Wpe-LCsL-FkCbti/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

@@ -9,7 +9,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      name: "Cabin Booking System",
+      name: "EdTech",
       description: "A sleek internal cabin booking system for NxtWave at Sohini Tech Park, Hyderabad, with a modern UI built using Lovable, powered by a FastAPI backend and PostgreSQL database hosted on Supabase — designed for efficient scheduling, user role management, and real-time availability tracking.",
       tech: ["Python", "FastAPI", "Lovable", "TypeScript", "PostgreSQL", "Supabase"],
       image: "https://images.unsplash.com/photo-1751706566078-4305776b85b4?q=80&w=1689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -19,7 +19,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      name: "Chest CT Scan Classification with Azure WebApp",
+      name: "Finance",
       description: "A cloud-based AI system for classifying chest CT scans with over 90% accuracy, leveraging Azure Custom Vision for model training and Azure Web App for deployment. Integrated Redis for fast, efficient NoSQL data storage and retrieval to support real-time predictions and scalable access.",
       tech: ["Azure Cloud", "Azure Custom Vision", "Redis", "Flask"],
       image: "https://images.unsplash.com/photo-1751707875919-94155431030a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -29,7 +29,7 @@ const Projects = () => {
     },
     {
       id: 3,
-      name: "Industrial Robot Prototype",
+      name: "Health Care",
       description: "Developed a prototype robotic arm for warehouse automation using Arduino UNO microcontroller with 5 degrees of freedom, automating object pick-and-place tasks with precision. Added object detection feature using an infrared sensor, achieving 95% accuracy in detection for seamless object manipulation.",
       tech: ["FastAPI", "LangChain", "Redis", "PostgreSQL", "React", "WebSocket"],
       image: "https://images.unsplash.com/photo-1751709314417-6abf3f9412ae?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -39,7 +39,7 @@ const Projects = () => {
     },
     {
       id: 4,
-      name: "Arithmetic Unit Using VHDL",
+      name: "Real Estate",
       description: " Developed a VHDL-based project for ModelSim that calculates a specified formula, implementing n-bit multiplication with Booth Multiplier and achieving a power-efficient design (5% static and 95% dynamic power dissipation).",
       tech: ["Vivado", "VHDL", "ModelSim"],
       image: "https://images.unsplash.com/photo-1751710435254-cc70ec271346?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -49,7 +49,7 @@ const Projects = () => {
     },
     {
       id: 5,
-      name: "Formal Verification of BCD Adder Core and Bug Fixing",
+      name: "IT",
       description: "Synthesised RTL code for a BCD Adder to gate level using Synopsys tools & verified RTL and gate-level designs with Formality and Conformal, achieving 100% verification & fixing 18 bugs in a provided gate-level description.",
       tech: ["Formal Verification", "Equivalence Checking", "Conformal", "Formality"],
       image: "https://i.postimg.cc/W4dsNn5L/for-hard.jpg",
