@@ -100,7 +100,7 @@ const Resume = () => {
               Resume
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
-              Comprehensive overview of my professional experience, skills, and educational background in Web Frameworks and Embedded Systems.
+              Comprehensive overview of my educational background in Finance and professional experience in SEO Content  Writing and PR Outreach.
             </p>
             <a
               href="https://drive.usercontent.google.com/download?id=1yqxVWRx1BzZOcY7J3Wpe-LCsL-FkCbti&export=download&authuser=0&confirm=t&uuid=9900f9f8-6b55-4874-a2b3-9e2dfd1c4bdd&at=ANTm3cxNHGBoePN73Iuh_eK8LDnG:1768680062697"
