@@ -83,7 +83,7 @@ const Resume = () => {
       degree: "B.Com",
       institution: "Patna Women’s College",
       period: "2020-2023",
-      details: "Specialization in Computing Systems and Microelectronic Systems • CGPA: 8.04/10"
+      details: "Specialization in Accountancy and Finance"
     }
   ];
 
