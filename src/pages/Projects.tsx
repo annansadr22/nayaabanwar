@@ -95,7 +95,7 @@ const Projects = () => {
                       <div className="absolute bottom-4 left-4 right-4 flex gap-2">
                         <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex-1">
                           <Button size="sm" className="w-full bg-white/20 hover:bg-white/30 text-white border-white/30">
-                            View Demo
+                            View Docs
                           </Button>
                         </a>
                         {/* <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex-1">
