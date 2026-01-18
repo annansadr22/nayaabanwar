@@ -7,29 +7,23 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const About = () => {
   const timeline = [
     {
-      year: "Current",
-      title: "Software Developer & Instructor",
-      company: "NxtWave Disruptive Technologies",
+      year: "April 2025 - Present",
+      title: "Script Writer/Business Development ",
+      company: "Probox Media",
       description: "Empowering future developers while building scalable software solutions at NxtWave NIAT."
     },
     {
-      year: "2023",
-      title: "Java Developer Intern",
-      company: "Innovation Lab, Concordia University",
+      year: "June 2023 - Present",
+      title: "Freelance Content Writer",
+      company: "Content Whale",
       description: "Developed the backend for an ML-powered music generation prototype using Java."
     },
     {
-      year: "2024",
-      title: "M.E in Electrical and Computer",
-      company: "Concordia University, Canada",
+      year: "2020-2023",
+      title: "B.Com",
+      company: "Patna Women’s College",
       description: "Specialized in Computing Systems and Microelectronic Systems."
     },
-    {
-      year: "2022",
-      title: "B.E in Electronics and Communication",
-      company: "Visvesvaraya Technological University, India",
-      description: "Specialized in Digital and Analog Electronics."
-    }
   ];
 
   return (
@@ -89,15 +83,15 @@ const About = () => {
             </div>
           </div>
 
-          {/* Fun Fact */}
+          {/* Core Beliefs */}
           <Card className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 border-0 shadow-2xl">
             <CardContent className="p-8 text-center">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Fun Fact</h3>
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Core Beliefs</h3>
               <p className="text-lg text-gray-700 dark:text-gray-300 italic">
-                "Software is the mind, hardware is the body — and IoT is what happens when they start having conversations." 
+                "Writing is easy. Communicating clearly is the real skill." 
               </p>
               <p className="text-gray-600 dark:text-gray-400 mt-4">
-                I believe that true innovation lies at the intersection of logic and physical reality — where code meets circuits, and ideas are not just written but wired into the world.
+                I believe strong content emerges when clarity meets context. When complex ideas are simplified and narratives are purposeful, every word serves a reason beyond filling space.
               </p>
             </CardContent>
           </Card>

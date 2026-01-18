@@ -8,17 +8,41 @@ import { Badge } from "@/components/ui/badge";
 
 const Resume = () => {
   const skills = {
-    "Programming Languages": ["Python",   "Java", "C", "Verilog", "VHDL"],
-    "Web Frameworks": ["Spring Boot", "FastAPI", "Django", "MERN"],
-    "Cloud Platforms": ["AWS", "Oracle", "Azure"],
-    "Databases": ["PostgreSQL", "MongoDB", "Redis", "MySQL"],
-    "Tools & Technologies": ["Git", "VS Code", "Postman", "Eclipse", "IntelliJ"]
+    "SEO & Search Strategy": [
+      "Search Engine Optimization (SEO)",
+      "Keyword Research & Analysis",
+      "Search Intent Analysis",
+      "SERP Ranking Improvements"
+    ],
+    "On-page & Technical SEO": [
+      "On-page SEO",
+      "Technical SEO Fundamentals",
+      "Internal Linking",
+      "Meta Tag Optimization"
+    ],
+    "Off-page & Authority Building": [
+      "Off-page SEO",
+      "Link-building Strategy",
+      "Content-led Outreach"
+    ],
+    "Content Writing & Copy": [
+      "SEO Copywriting",
+      "Script Writing",
+      "Email Content",
+      "Proofreading"
+    ],
+    "Content Strategy": [
+      "Content Strategy & Planning",
+      "Audience-focused Writing",
+      "Conversion-oriented Content"
+    ]
   };
+
 
   const experience = [
     {
-      title: "Software Development Instructor",
-      company: "NxtWave Disruptive Technologies",
+      title: "Script Writer/Business Development",
+      company: "Probox Media",
       period: "Apr 2025 - Present",
       achievements: [
         "Completed several courses including Python, MySQL and others.",
@@ -27,9 +51,9 @@ const Resume = () => {
       ]
     },
     {
-      title: "Java Developer Intern",
-      company: "Innovation Lab, Concordia University",
-      period: "Jan 2023 - Apr 2023",
+      title: "Freelance Content Writer",
+      company: "Content Whale",
+      period: "Jun 2023 - Present",
       achievements: [
         "Assisted in the development of a software prototype leveraging ML to generate music files from sheet music input.",
         "Implemented system architecture in Java, integrating ML algorithms for music pattern recognition & generation."
@@ -39,16 +63,10 @@ const Resume = () => {
 
   const education = [
     {
-      degree: "M.E in Electrical and Computer",
-      institution: "Concordia University",
-      period: "2023 - 2024",
+      degree: "B.Com",
+      institution: "Patna Women’s College",
+      period: "2020-2023",
       details: "Specialization in Computing Systems and Microelectronic Systems • GPA: 3.8/4.3"
-    },
-    {
-      degree: "B.E in Electronics and Communication",
-      institution: "Visvesvaraya Technological University",
-      period: "2018 - 2022",
-      details: "Major in Electronics and Communication • CGPA: 8.59/10"
     }
   ];
 
