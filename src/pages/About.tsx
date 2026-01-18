@@ -45,7 +45,7 @@ const About = () => {
               About Me
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              I’m a passionate software developer and technical instructor with a strong interest in building intelligent, real-world systems. My work spans web frameworks, embedded systems, FPGA design, and IoT — blending software engineering with hands-on hardware integration.
+              I’m a passionate content strategist and SEO writer. I help brands grow visibility and engagement through strategic content that ranks and converts. My expertise spans SEO, keyword research, and content planning across edtech, finance, healthcare, real estate, and IT — all designed to support measurable business outcomes.
             </p>
           </div>
 
@@ -56,19 +56,16 @@ const About = () => {
             </CardHeader>
             <CardContent className="text-gray-600 dark:text-gray-300 leading-relaxed">
               <p className="mb-4">
-                My journey into technology began in childhood, not through screens, but through movement — playing sports with my brother and exploring the world physically. It wasn’t until I got my first computer in fourth grade that my curiosity toward electronics and technology truly ignited.
+                My professional journey in content writing and communication is rooted in a strong foundation of verbal articulation and interpersonal skills developed early on through debates, discussions, and academic engagements. These formative experiences instilled a deep appreciation for structured thinking, clarity, and effective expression—skills that continue to shape my work today.
               </p>
               <p className="mb-4">
-                As I grew older, this spark evolved into a fascination with how devices communicate — through text, images, and signals that transcend physical boundaries. This led me to pursue a Bachelor's degree in Electronics and Communication Engineering, where I delved deep into communication systems, semiconductors, and microelectronics.
+                I formally began my content writing journey during my college years, where I transitioned from expressive writing to strategic, purpose-driven content creation. Over time, I developed the ability to research thoroughly, distil complex ideas, and present them in a clear, engaging, and audience-centric manner. This progression helped me understand that impactful content is not merely creative—it is analytical, intentional, and aligned with business objectives.
               </p>
               <p className="mb-4">
-                Along the way, I rediscovered an early interest in programming — a creative outlet where I could build systems and solve real-world problems through code. From developing a robotic arm using Arduino UNO to working on AI-based disease prediction using patient symptoms, I began bridging hardware and software in practical, impactful ways.
+                As my experience grew, so did my exposure to diverse content formats and industries. I learned to adapt tone, messaging, and structure based on platform requirements and audience intent, enabling me to deliver content that informs, engages, and builds credibility. My work increasingly focused on value-driven narratives, where clarity and relevance take precedence over volume.
               </p>
               <p className="mb-4">
-                My current focus lies at the intersection of web frameworks, IoT, FPGA, and intelligent embedded systems — where software logic meets electronic precision. Through internships, coursework, and continuous self-learning, I’ve built a solid foundation and a deep passion for developing smart systems that go beyond the screen.
-              </p>
-              <p className="mb-4">
-                I believe real learning happens when curiosity meets application — and that’s the mindset I carry forward into every project I build and every student I mentor.
+                Today, I view content writing as a strategic communication tool. It actively bridges information with influence. I continue to refine my craft through continuous learning and practical application, with a strong emphasis on precision, professionalism, and measurable impact.
               </p>
             </CardContent>
           </Card>
