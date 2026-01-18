@@ -10,19 +10,19 @@ const About = () => {
       year: "April 2025 - Present",
       title: "Script Writer/Business Development ",
       company: "Probox Media",
-      description: "Empowering future developers while building scalable software solutions at NxtWave NIAT."
+      // description: "Empowering future developers while building scalable software solutions at NxtWave NIAT."
     },
     {
       year: "June 2023 - Present",
       title: "Freelance Content Writer",
       company: "Content Whale",
-      description: "Developed the backend for an ML-powered music generation prototype using Java."
+      // description: "Developed the backend for an ML-powered music generation prototype using Java."
     },
     {
       year: "2020-2023",
       title: "B.Com",
       company: "Patna Women’s College",
-      description: "Specialized in Computing Systems and Microelectronic Systems."
+      // description: "Specialized in Computing Systems and Microelectronic Systems."
     },
   ];
 
@@ -76,7 +76,7 @@ const About = () => {
                       <span className="text-blue-600 dark:text-blue-400 font-semibold text-lg">{item.year}</span>
                     </div>
                     <p className="text-blue-700 dark:text-blue-300 font-medium mb-2">{item.company}</p>
-                    <p className="text-gray-600 dark:text-gray-300">{item.description}</p>
+                    {/* <p className="text-gray-600 dark:text-gray-300">{item.description}</p> */}
                   </CardContent>
                 </Card>
               ))}

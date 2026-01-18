@@ -11,7 +11,7 @@ export function Hero() {
           <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1 shadow-2xl">
             <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1750758638150-aba376165160?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="/images/profile.jpeg"
                 alt="Nayaab Anwar"
                 className="w-full h-full object-cover"
               />

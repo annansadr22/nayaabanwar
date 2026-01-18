@@ -10,35 +10,38 @@ export function Projects() {
       name: "EdTech",
       description: "Crafted SEO-driven, learner-focused content for leading education platforms including KnowledgeHut by UpGrad, Chegg, and Great Lakes, simplifying complex concepts into high-impact narratives.",
       tech: ["Curriculum-aligned writing", "Simplifying complex concepts", "Search intent–based content"],
-      image: "https://images.unsplash.com/photo-1751706566078-4305776b85b4?q=80&w=1689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "/images/ed.jpeg",
     },
     {
       id: 2,
       name: "Finance",
       description: "Developed performance-oriented content for financial institutions like FlexiLoans, Almondz, and Propelld, translating data-heavy subjects into accessible, conversion-focused copy.",
       tech: ["Lead-oriented fintech content", "Performance marketing copy", "Data-driven finance copywriting"],
-      image: "https://images.unsplash.com/photo-1751707875919-94155431030a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "/images/fi.jpeg",
     },
     {
       id: 3,
       name: "Healthcare",
       description: "Delivered research-backed and patient-centric content for healthcare brands such as Apollo Fertility, Apollo Spectra, AHCA, and EaseMyCure, balancing trust, clarity, and engagement.",
       tech: ["Compliance-aware content", "Research-backed content", "Patient-centric medical writing"],
-      image: "http://images.unsplash.com/photo-1751699466793-8a9513402fd6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=1000&h=1000&fit=crop",
+      // image: "http://images.unsplash.com/photo-1751699466793-8a9513402fd6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=1000&h=1000&fit=crop",
+      image: "/images/hc.jpeg",
     },
     {
       id: 4,
       name: "Real Estate",
       description: "Produced buyer-centric and SEO-optimized content for property platforms including Huozeo and RentenPe, improving discoverability and lead intent.",
       tech: ["Buyer-intent content strategy", "Property listing content", "Lead-generation copywriting"],
-      image: "https://images.unsplash.com/photo-1751709314417-6abf3f9412ae?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      // image: "https://images.unsplash.com/photo-1751709314417-6abf3f9412ae?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "/images/re.jpeg",
     },
     {
       id: 5,
       name: "IT & Digital Platforms",
       description: "Created structured, clarity-led content for digital and IT-driven brands including Informatrix, Truecaller, Digital Glyphs, and Savaari, aligning technical offerings with business value and audience understanding.",
       tech: ["SaaS & IT content writing", "B2C digital product content", "Business-aligned tech communication"],
-      image: "https://images.unsplash.com/photo-1751710435254-cc70ec271346?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      // image: "https://images.unsplash.com/photo-1751710435254-cc70ec271346?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "/images/it.jpeg",
     }
   ];
 
