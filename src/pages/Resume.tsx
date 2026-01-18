@@ -45,9 +45,16 @@ const Resume = () => {
       company: "Probox Media",
       period: "Apr 2025 - Present",
       achievements: [
-        "Completed several courses including Python, MySQL and others.",
-        "Made a cabin booking system using Fast API and Lovable.",
-        "Conducted several Bootcamps at NIAT as a speaker and a volunteer."
+        "Script Development and Execution: Led the ideation and conceptualization of a new age social media reels and voiceovers through influencer marketing as the sole Script Writer. Successfully aligned brand tone across beauty and furnishings sectors like Jawed Habib, D’opulence, Square Roots Clinic and Baba Glass respectively. Structured narratives and storyboards, ensuring clear visual flow, strong character development, and consistent pacing for screen and digital content.",
+
+        "User & Market research: Performed in-depth market and competitor research to guide PR outreach, ensuring targeted media pitches aligned with current trends, audience interests, and publication fit. Focus startup founders and targeted PR campaigns that resonated with editorial calendars.",
+
+        "Cross-functional Collaborations: Collaborated closely with marketing, design, and video teams to translate briefs into scripts with compelling CTAs, optimized for audience engagement and platform fit. Used industry-standard tools like Google Docs and Notion to manage script planning, real-time editing, and project organization from ideation to delivery.",
+
+        "Press Release Content Management: Drafted compelling press releases, pitches, and founder bios tailored to media angles, industry relevance, and editorial standards. Collaborated with entrepreneurs and authors to manage PR efforts featured in Midday, Outlook and Times of India.",
+
+        "CRM Management: Utilized CRM platforms like Google Sheets and Apollo to manage outreach pipelines, monitor response rates, and streamline campaign performance tracking."
+
       ]
     },
     {
@@ -55,8 +62,18 @@ const Resume = () => {
       company: "Content Whale",
       period: "Jun 2023 - Present",
       achievements: [
-        "Assisted in the development of a software prototype leveraging ML to generate music files from sheet music input.",
-        "Implemented system architecture in Java, integrating ML algorithms for music pattern recognition & generation."
+        "Content Strategy and Development: Led sprint planning and content development roadmap of 360+ articles and blogs, achieving 40%+ organic traffic in 1 month. Produced content tailored to technical subjects across finance, edtech and healthcare sectors & delivered versatility.",
+
+        "Key metrics: Keyword Ranking Improvement, Backlinks Earned, Organic Traffic Growth",
+
+        "Key Focused Content and Organic Growth: Used SEO strategies like keyword targeting, metadata optimization, and internal linking to drive measurable traffic growth.",
+
+        "Keyword Research and on-page optimization techniques: Designed and implemented SEO practices such as meta tag writing, readability improvements, and link structures to boost SERP performance.",
+
+        "Content for Renowned Brands: Developed content for 15+ brands including True caller, Great Lakes Institute, Propelld, Up Grad, Chegg and Apollo Fertility and built credibility and brand engagement for major players in tech, education, and healthcare through tailored, research-driven content.",
+
+        "Cross-functional Collaboration: Ensured clarity, tone, and messaging aligned with brand voice while meeting tight deadlines across multiple content streams. Maintained positive feedback over 90%, maintaining content quality and brand concept."
+
       ]
     }
   ];
@@ -103,7 +120,7 @@ const Resume = () => {
               {/* Skills */}
               <Card className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border-0 shadow-xl">
                 <CardHeader>
-                  <CardTitle className="text-xl font-bold text-gray-900 dark:text-white">Technical Skills</CardTitle>
+                  <CardTitle className="text-xl font-bold text-gray-900 dark:text-white">Professional Skills</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   {Object.entries(skills).map(([category, items]) => (
