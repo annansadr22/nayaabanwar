@@ -14,7 +14,7 @@ const Projects = () => {
       tech: ["Curriculum-aligned writing", "Simplifying complex concepts", "Search intent–based content"],
       image: "/images/ed.jpeg",
       github: "https://github.com/annansadr22/cabin_booking_backend",
-      demo: "https://cabin-booking-frontend-df4p.onrender.com",
+      demo: "https://docs.google.com/document/d/1s130XIYfFnVuMV5FeItBxQ61FJOQG2OUR7CQx-5K0fU/edit?usp=drivesdk",
       featured: true
     },
     {
@@ -24,7 +24,7 @@ const Projects = () => {
       tech: ["Lead-oriented fintech content", "Performance marketing copy", "Data-driven finance copywriting"],
       image: "/images/fi.jpeg",
       github: "https://github.com/zaranasiim/POC-Project",
-      demo: "https://drive.google.com/file/d/1AgABLoxfUA7KHmMtm8AAEy3_M0bcQSKg/view?usp=sharing",
+      demo: "https://docs.google.com/document/d/1s130XIYfFnVuMV5FeItBxQ61FJOQG2OUR7CQx-5K0fU/edit?usp=drivesdk",
       featured: true
     },
     {
@@ -34,7 +34,7 @@ const Projects = () => {
       tech: ["Compliance-aware content", "Research-backed content", "Patient-centric medical writing"],
       image: "/images/hc.jpeg",
       github: "https://github.com/annansadr22/Industrial_Robot_COEN_6711",
-      demo: "https://drive.google.com/file/d/15w-T95-k-18Za1Q9PidVjQRWXef2uWwA/view?usp=sharing",
+      demo: "https://docs.google.com/document/d/1s130XIYfFnVuMV5FeItBxQ61FJOQG2OUR7CQx-5K0fU/edit?usp=drivesdk",
       featured: false
     },
     {
@@ -44,7 +44,7 @@ const Projects = () => {
       tech: ["Buyer-intent content strategy", "Property listing content", "Lead-generation copywriting"],
       image: "/images/re.jpeg",
       github: "https://github.com/annansadr22/ArithmeticUnit_COEN_6501",
-      demo: "https://drive.google.com/file/d/1jG3b9xSXp47hugaby-nQoV6uj02Uu-4X/view?usp=sharing",
+      demo: "https://docs.google.com/document/d/1s130XIYfFnVuMV5FeItBxQ61FJOQG2OUR7CQx-5K0fU/edit?usp=drivesdk",
       featured: false
     },
     {
@@ -54,7 +54,7 @@ const Projects = () => {
       tech: ["SaaS & IT content writing", "B2C digital product content", "Business-aligned tech communication"],
       image: "/images/it.jpeg",
       github: "https://github.com/annansadr22/Formal_Verification_BCD_Adder_COEN_6551",
-      demo: "https://drive.google.com/file/d/1mKV4RqVJQiHpjse-eUhaFM0iXccATYdK/view?usp=sharing",
+      demo: "https://docs.google.com/document/d/1s130XIYfFnVuMV5FeItBxQ61FJOQG2OUR7CQx-5K0fU/edit?usp=drivesdk",
       featured: false
     }
   ];
@@ -98,7 +98,7 @@ const Projects = () => {
                             View Demo
                           </Button>
                         </a>
-                        <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex-1">
+                        {/* <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex-1">
                           <Button
                             size="sm"
                             variant="outline"
@@ -106,7 +106,7 @@ const Projects = () => {
                           >
                             GitHub
                           </Button>
-                        </a>
+                        </a> */}
                       </div>
                     </div>
                   </div>

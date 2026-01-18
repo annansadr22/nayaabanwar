@@ -59,7 +59,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-6 text-center">
           <p className="text-gray-400 text-sm">
-            © {currentYear} Nayaab Anwar. All rights reserved. Built with passion for Web Systems, IoT, and Embedded Intelligence.
+            © {currentYear} Nayaab Anwar. All rights reserved. 
           </p>
         </div>
       </div>
