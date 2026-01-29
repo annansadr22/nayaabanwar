@@ -79,7 +79,7 @@ const Contact = () => {
               Get in Touch
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Let’s talk about your next software or hardware project, explore collaboration in embedded systems or web development, or simply connect over our shared passion for building intelligent, real-world tech.
+              Let's talk about your next SaaS project, brand positioning, podcast script, or simply connect over our shared passion for storytelling.
             </p>
           </div>
 
