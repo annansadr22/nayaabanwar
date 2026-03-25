@@ -30,9 +30,7 @@ export function Hero() {
           </p>
           
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Passionate about using words as a growth tool, I blend analytical thinking with creative storytelling.
-            I craft persuasive, conversion-focused content that builds trust, influences decision, and supports sale growth.
-            I help AI-powered SaaS tools by writing bottom-funnel blogs that lead to demo requests. 
+            I write bottom-funnel blogs for AI-powered SaaS tools that don't just attract readers, but influence decisions and drive demo pipeline. 
           </p>
 
           {/* Action Buttons */}
